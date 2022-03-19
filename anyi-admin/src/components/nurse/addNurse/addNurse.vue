@@ -5,7 +5,7 @@
       <el-form-item label="姓名" prop="name">
         <el-input v-model="ruleForm.name"></el-input>
       </el-form-item>
-      <el-form-item label="地址" prop="address">
+      <el-form-item label="地址zhuna" prop="address">
         <el-input v-model="ruleForm.address"></el-input>
       </el-form-item>
       <el-form-item label="年龄" prop="age">

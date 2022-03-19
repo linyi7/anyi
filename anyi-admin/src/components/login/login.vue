@@ -4,7 +4,7 @@
         <h2 class="title">安逸医院内部管理系统登录</h2>
         <el-form ref="form" :model="form" label-width="80px">
           <el-form-item>
-            <el-input v-model.trim="form.name" placeholder="用户名" @keyup.enter.native="nextInput"></el-input>
+            <el-input v-model.trim="form.name" placeholder="用户名009" @keyup.enter.native="nextInput"></el-input>
           </el-form-item>
           <el-form-item @keyup.enter.native="_login">
             <el-input id="psw" v-model="form.password" type="password" class="inputpsw" placeholder="密码"></el-input>
