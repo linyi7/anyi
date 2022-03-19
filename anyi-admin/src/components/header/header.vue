@@ -12,7 +12,7 @@
           <router-link to="home"><el-dropdown-item>首页</el-dropdown-item></router-link>
           <el-dropdown-item>修改密码</el-dropdown-item>
             <el-dropdown-item>
-              <span class="el-dropdown-link" @click="personalShow">个人主页<i class="el-icon-caret-bottom el-icon--right"></i></span>
+              <span class="el-dropdown-link" @click="personalShow">个人主页111<i class="el-icon-caret-bottom el-icon--right"></i></span>
             </el-dropdown-item>
             <el-dropdown-item :class="{ show: isShow }" class="personalDropdown">
               <el-dropdown-item><router-link to="addPersonalDate">新建个人档案</router-link></el-dropdown-item>
